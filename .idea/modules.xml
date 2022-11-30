@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LW1_2-Dynamic-Array/LW1_2-Dynamic-Array.iml" filepath="$PROJECT_DIR$/LW1_2-Dynamic-Array/LW1_2-Dynamic-Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LW3-Comparison-of-Sorts/LW3-Comparison-of-Sorts.iml" filepath="$PROJECT_DIR$/LW3-Comparison-of-Sorts/LW3-Comparison-of-Sorts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LW4-Sorting-Objects/LW4-Sorting-Objects.iml" filepath="$PROJECT_DIR$/LW4-Sorting-Objects/LW4-Sorting-Objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LW5-Abstract-Data-Type/LW5-Abstract-Data-Type.iml" filepath="$PROJECT_DIR$/LW5-Abstract-Data-Type/LW5-Abstract-Data-Type.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LW6-Reverse-Polish-Notation/LW6-Reverse-Polish-Notation.iml" filepath="$PROJECT_DIR$/LW6-Reverse-Polish-Notation/LW6-Reverse-Polish-Notation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LW7-Lists/LW7-Lists.iml" filepath="$PROJECT_DIR$/LW7-Lists/LW7-Lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LW8-Hash-Function/LW8-Hash-Function.iml" filepath="$PROJECT_DIR$/LW8-Hash-Function/LW8-Hash-Function.iml" />
+    </modules>
+  </component>
+</project>
