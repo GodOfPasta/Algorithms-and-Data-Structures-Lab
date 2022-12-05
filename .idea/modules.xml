@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/LW6-Reverse-Polish-Notation/LW6-Reverse-Polish-Notation.iml" filepath="$PROJECT_DIR$/LW6-Reverse-Polish-Notation/LW6-Reverse-Polish-Notation.iml" />
       <module fileurl="file://$PROJECT_DIR$/LW7-Lists/LW7-Lists.iml" filepath="$PROJECT_DIR$/LW7-Lists/LW7-Lists.iml" />
       <module fileurl="file://$PROJECT_DIR$/LW8-Hash-Function/LW8-Hash-Function.iml" filepath="$PROJECT_DIR$/LW8-Hash-Function/LW8-Hash-Function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LW9-Radix-Sort/LW9-Radix-Sort.iml" filepath="$PROJECT_DIR$/LW9-Radix-Sort/LW9-Radix-Sort.iml" />
     </modules>
   </component>
 </project>
