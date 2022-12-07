@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LW11-Heapsort/LW11-Heapsort.iml" filepath="$PROJECT_DIR$/LW11-Heapsort/LW11-Heapsort.iml" />
       <module fileurl="file://$PROJECT_DIR$/LW1_2-Dynamic-Array/LW1_2-Dynamic-Array.iml" filepath="$PROJECT_DIR$/LW1_2-Dynamic-Array/LW1_2-Dynamic-Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/LW3-Comparison-of-Sorts/LW3-Comparison-of-Sorts.iml" filepath="$PROJECT_DIR$/LW3-Comparison-of-Sorts/LW3-Comparison-of-Sorts.iml" />
       <module fileurl="file://$PROJECT_DIR$/LW4-Sorting-Objects/LW4-Sorting-Objects.iml" filepath="$PROJECT_DIR$/LW4-Sorting-Objects/LW4-Sorting-Objects.iml" />

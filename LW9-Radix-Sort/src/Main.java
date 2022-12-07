@@ -23,20 +23,15 @@ public class Main {
         System.out.println();
     }
     public static void radixSort(int[] input){
-        List<Integer>[] buckets = new ArrayList[19];
+        ArrayList<Integer>[] buckets = new ArrayList[19];
+        int tmp = -1, divisor = 1;
         for (int i = 0; i < buckets.length; i++) {
             buckets[i] = new ArrayList<>();
         }
-        boolean flag = false;
-        int tmp, divisor = 1;
-        while (!flag) {
-            flag = true;
+        while (tmp != 0) {
             for (Integer i : input) {
                 tmp = i / divisor;
                 buckets[tmp % 10 + 9].add(i);
-                if (flag && tmp > 0) {
-                    flag = false;
-                }
             }
             int a = 0;
             for (List<Integer> bucket : buckets) {
