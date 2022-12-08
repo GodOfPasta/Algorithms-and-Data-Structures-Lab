@@ -15,7 +15,7 @@ public class Main {
         for(int i = 0; i < array.length; i++){
             array[i] = start + (int)(Math.random()*(fin-start+1));
         }
-        //array = new int[]{41, 9, 37, -21, 9, -42, 34, -64, -29, -9};
+        array = new int[]{41, 9, 37, -21, 9, -42, 34, -64, -29, -9};
         System.out.println("Unsorted array is");
         printArray(array);
         sort(array);
