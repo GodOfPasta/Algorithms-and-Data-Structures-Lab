@@ -12,12 +12,17 @@ public class Tree {
         }
         if (value < current.value) {
             current.left = addRecursive(current.left, value);
-        } else if (value > current.value) {
+        }
+        else if (value > current.value) {
             current.right = addRecursive(current.right, value);
-        } else {
+        }
+        else {
             return current;
         }
         return current;
+    }
+    public void delete(int value) {
+        root = deleteRecursive(root, value);
     }
     private Node deleteRecursive(Node current, int value) {
         if (current == null) {
@@ -33,9 +38,9 @@ public class Tree {
             if (current.left == null) {
                 return current.right;
             }
-            int smallestValue = findSmallestValue(current.right);
-            current.value = smallestValue;
-            current.right = deleteRecursive(current.right, smallestValue);
+            Node mostLeftNode = mostLeftNode(current.right);
+            current.value = mostLeftNode.value;
+            current.right = deleteRecursive(current.right, mostLeftNode.value);
             return current;
         }
         if (value < current.value) {
@@ -45,11 +50,11 @@ public class Tree {
         current.right = deleteRecursive(current.right, value);
         return current;
     }
-    private int findSmallestValue(Node root) {
-        return root.left == null ? root.value : findSmallestValue(root.left);
+    protected Node mostLeftNode(Node current) {
+        return current.left == null ? current : mostLeftNode(current.left);
     }
-    public void delete(int value) {
-        root = deleteRecursive(root, value);
+    public boolean contains(int value){
+        return containsRecursive(root, value);
     }
     private boolean containsRecursive(Node current, int value) {
         if (current == null)
@@ -58,9 +63,7 @@ public class Tree {
             return true;
         return value < current.value ? containsRecursive(current.left, value) : containsRecursive(current.right, value);
     }
-    public boolean contains(int value){
-        return containsRecursive(root, value);
-    }
+
     //Последовательный обход
     public void inorder(Node current){
         if(current != null){

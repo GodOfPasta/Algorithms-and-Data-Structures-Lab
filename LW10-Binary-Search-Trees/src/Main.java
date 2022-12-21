@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Tree tree = new Tree();
         // Создание дерева с помощью вставки узла
+
         tree.add(100);
         tree.add(10);
         tree.add(9);
@@ -46,5 +47,21 @@ public class Main {
         System.out.println("Поиск информации в дереве");
         System.out.println("'100' Содержится в дереве - " + tree.contains(100));
         System.out.println("'199' Содержится в дереве - " + tree.contains(199));
+
+
+        //------------------------------------------------------------------------------------------------------------//
+        System.out.println();
+        AVLTree avlTree = new AVLTree();
+        avlTree.add(100);
+        avlTree.add(110);
+        avlTree.add(120);
+        avlTree.add(130);
+        avlTree.inorder(avlTree.root);
+        System.out.println();
+        avlTree.preorder(avlTree.root);
+        System.out.println();
+        System.out.println(avlTree.contains(110));
+        System.out.println(avlTree.contains(119));
     }
+
 }

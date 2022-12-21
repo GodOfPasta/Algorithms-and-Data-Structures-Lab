@@ -1,8 +1,8 @@
 public class Node {
     private boolean isBalanced;
     int value;
+    int height;
     Node left, right;
-    //private int height = left.height() - right.height();
     Node(int key) {
         this.value = key;
         left = null;
